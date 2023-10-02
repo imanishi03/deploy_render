@@ -36,7 +36,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = False
 
 # ALLOWED_HOSTS = ['*']
-ALLOWED_HOSTS = ['quiz.onrender.com']
+ALLOWED_HOSTS = ['127.0.0.1','10.209.23.100', 'quiz.onrender.com']
 
 
 
