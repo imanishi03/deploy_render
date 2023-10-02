@@ -40,7 +40,7 @@ services:
     region: singapore
     plan: free
     branch: main
-    healthCheckPath: /
+    healthCheckPath: /quiz/quiz_movie
     buildCommand: "./build.sh"
     startCommand: "gunicorn report_project.wsgi --log-file -"
     envVars:
